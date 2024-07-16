@@ -4,14 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "TICG_Reader"
-version = "0.1"
+version = "0.0.1"
 description = "TICG Reader"
 keywords = ["ovito", "ovito-extension"]
 authors = [{name = "Jihun Ahn", email = "0421ajh@naver.com"}]
 maintainers = [{name = "Jihun Ahn", email = "0421ajh@naver.com"}]
-license = {text = "MIT"}
+license = {text = "MIT License"}
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.9"
 dependencies = [
     "ovito >= 3.9.1",
 ]
