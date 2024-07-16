@@ -20,7 +20,7 @@ dependencies = [
 repository = "https://github.com/0421ajh/TICG_reader"
 
 [project.entry-points.'OVITO.FileReader']
-"[[Human readable file reader name]]" = "TICG_Reader:TICG_Reader"
+"TICG XYZ FILE" = "TICG_Reader:TICG_Reader"
 
 [tool.setuptools.packages.find]
 where = ["src"]
