@@ -3,13 +3,13 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "[[PackageName]]"
-version = "[[Version number]]"
-description = "[[Short description]]"
+name = "TICG_Reader"
+version = "0.1"
+description = "TICG Reader"
 keywords = ["ovito", "ovito-extension"]
-authors = [{name = "[[Author 1 name]]", email = "[[Author 1 email]]"}, {name = "[[Author 2 name]]", email = "[[Author 2 email]]"}]
-maintainers = [{name = "[[Maintainer 1 name]]", email = "[[Maintainer 1 email]]"}]
-license = {text = "[[License]]"}
+authors = [{name = "Jihun Ahn", email = "0421ajh@naver.com"}]
+maintainers = [{name = "Jihun Ahn", email = "0421ajh@naver.com"}]
+license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
@@ -17,10 +17,10 @@ dependencies = [
 ]
 
 [project.urls]
-repository = "[[Repository Link]]"
+repository = "https://github.com/0421ajh/TICG_reader"
 
 [project.entry-points.'OVITO.FileReader']
-"[[Human readable file reader name]]" = "[[PackageName]]:[[FileReaderName]]"
+"[[Human readable file reader name]]" = "TICG_Reader:TICG_Reader"
 
 [tool.setuptools.packages.find]
 where = ["src"]
